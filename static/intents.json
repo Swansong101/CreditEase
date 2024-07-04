@@ -1,0 +1,1565 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hello",
+                "Hey",
+                "Greetings",
+                "Good morning",
+                "Good afternoon",
+                "Good evening",
+                "Hi there",
+                "Howdy",
+                "Hey there"
+            ],
+            "responses": [
+                "Hello! How can I assist you with your medical questions today?",
+                "Hi there! What medical information are you looking for?",
+                "Greetings! How can I help you with your health concerns today?",
+                "Hello! How can I help you today?",
+                "Hi! How can I be of assistance to you?"
+            ]
+        },
+        {
+            "tag": "cancer_general",
+            "patterns": [
+                "What is cancer?",
+                "Tell me about cancer",
+                "Can you explain cancer?",
+                "How does cancer start?",
+                "What causes cancer?",
+                "Define cancer"
+            ],
+            "responses": [
+                "Cancer is a group of diseases characterized by the uncontrolled growth and spread of abnormal cells. It can develop in almost any organ or tissue of the body and has various types, each with its unique characteristics and treatment approaches.",
+                "Cancer is a disease where cells grow uncontrollably and spread to other parts of the body. It's caused by changes in the DNA within cells.",
+                "Cancer refers to a collection of related diseases where some of the body’s cells begin to divide without stopping and spread into surrounding tissues."
+            ]
+        },
+        {
+            "tag": "cancer_types",
+            "patterns": [
+                "What are the types of cancer?",
+                "Can you tell me about lung cancer?",
+                "What are the types of breast cancer?",
+                "Explain prostate cancer",
+                "What are the different types of skin cancer?",
+                "Types of cancer"
+            ],
+            "responses": [
+                "Cancer types include lung cancer, breast cancer, prostate cancer, leukemia, skin cancer, among others. Each type has specific subtypes and characteristics.",
+                "Some common cancer types are lung cancer, breast cancer, prostate cancer, colorectal cancer, and melanoma.",
+                "There are many types of cancer, including lung cancer, breast cancer, leukemia, lymphoma, and sarcoma, each affecting different parts of the body."
+            ]
+        },
+        {
+            "tag": "cancer_symptoms",
+            "patterns": [
+                "What are the symptoms of cancer?",
+                "Can you list common cancer symptoms?",
+                "What are signs of cancer?",
+                "How do I know if I have cancer?",
+                "Cancer symptoms",
+                "Signs of cancer"
+            ],
+            "responses": [
+                "Common symptoms of cancer can include persistent coughing, chest pain, shortness of breath, lumps or thickening in certain areas, changes in moles or skin lesions, and unexplained weight loss or fatigue. It's important to consult a healthcare professional for accurate diagnosis.",
+                "Symptoms of cancer can vary widely but often include unusual lumps, unexplained weight loss, persistent cough, changes in bowel habits, and unusual bleeding.",
+                "Signs of cancer may include fatigue, unexplained weight loss, skin changes, changes in bowel or bladder habits, and persistent pain. It's essential to see a doctor for a proper diagnosis."
+            ]
+        },
+        {
+            "tag": "cancer_prevention",
+            "patterns": [
+                "How can I prevent cancer?",
+                "What are ways to reduce cancer risk?",
+                "Are there lifestyle changes to prevent cancer?",
+                "How can I lower my chances of getting cancer?",
+                "Cancer prevention",
+                "Reduce cancer risk"
+            ],
+            "responses": [
+                "Preventing cancer involves making healthy lifestyle choices such as maintaining a healthy weight, avoiding tobacco, limiting alcohol consumption, protecting yourself from the sun, staying physically active, and following recommended cancer screening guidelines.",
+                "You can reduce your risk of cancer by avoiding smoking, eating a healthy diet, staying physically active, protecting yourself from the sun, and getting regular medical check-ups.",
+                "To lower your risk of cancer, avoid tobacco, maintain a healthy diet and weight, stay active, protect your skin from the sun, and get vaccinated against viruses that can cause cancer."
+            ]
+        },
+        {
+            "tag": "diabetes_general",
+            "patterns": [
+                "What is diabetes?",
+                "Tell me about diabetes",
+                "Explain diabetes",
+                "How does diabetes develop?",
+                "What causes diabetes?",
+                "Define diabetes"
+            ],
+            "responses": [
+                "Diabetes is a chronic disease characterized by high levels of sugar (glucose) in the blood. It occurs when the body doesn't produce enough insulin or doesn't use it effectively.",
+                "Diabetes is a condition where the body either doesn't make enough insulin or can't use it effectively, leading to high blood sugar levels.",
+                "Diabetes is a metabolic disease that causes high blood sugar. The insulin hormone moves sugar from the blood into your cells to be stored or used for energy. With diabetes, your body either doesn't make enough insulin or can't effectively use the insulin it does make."
+            ]
+        },
+        {
+            "tag": "diabetes_types",
+            "patterns": [
+                "What are the types of diabetes?",
+                "Can you tell me about type 1 diabetes?",
+                "Explain type 2 diabetes",
+                "What are the different types of diabetes?",
+                "Types of diabetes"
+            ],
+            "responses": [
+                "Diabetes types include type 1 diabetes, type 2 diabetes, gestational diabetes, and others. Each type has specific characteristics and treatment approaches.",
+                "The main types of diabetes are type 1, type 2, and gestational diabetes. Type 1 is often diagnosed in childhood, type 2 is more common in adults, and gestational diabetes occurs during pregnancy.",
+                "There are several types of diabetes: type 1 diabetes, type 2 diabetes, and gestational diabetes. Each has different causes and treatment methods."
+            ]
+        },
+        {
+            "tag": "diabetes_symptoms",
+            "patterns": [
+                "What are the symptoms of diabetes?",
+                "Can you list common diabetes symptoms?",
+                "What are signs of diabetes?",
+                "How do I know if I have diabetes?",
+                "Diabetes symptoms",
+                "Signs of diabetes"
+            ],
+            "responses": [
+                "Common symptoms of diabetes include increased thirst, frequent urination, extreme hunger, unexplained weight loss, fatigue, irritability, and blurred vision. It's important to consult a healthcare professional for accurate diagnosis.",
+                "Symptoms of diabetes can include frequent urination, extreme thirst, hunger, fatigue, and blurred vision. If you experience these, consult a doctor.",
+                "Diabetes symptoms often include increased thirst, frequent urination, unexplained weight loss, fatigue, and irritability. A healthcare provider can give a proper diagnosis."
+            ]
+        },
+        {
+            "tag": "diabetes_prevention",
+            "patterns": [
+                "How can I prevent diabetes?",
+                "What are ways to reduce diabetes risk?",
+                "Are there lifestyle changes to prevent diabetes?",
+                "How can I lower my chances of getting diabetes?",
+                "Diabetes prevention",
+                "Reduce diabetes risk"
+            ],
+            "responses": [
+                "Preventing diabetes involves maintaining a healthy weight, adopting a balanced diet low in processed foods and added sugars, getting regular physical activity, monitoring blood sugar levels, avoiding smoking, and limiting alcohol consumption.",
+                "You can reduce your risk of diabetes by eating a balanced diet, staying active, maintaining a healthy weight, and avoiding smoking.",
+                "To prevent diabetes, focus on a healthy diet, regular exercise, maintaining a healthy weight, and avoiding smoking and excessive alcohol consumption."
+            ]
+        },
+        {
+            "tag": "alzheimers_general",
+            "patterns": [
+                "What is Alzheimer's disease?",
+                "Tell me about Alzheimer's",
+                "Explain Alzheimer's",
+                "How does Alzheimer's develop?",
+                "What causes Alzheimer's?",
+                "Define Alzheimer's disease"
+            ],
+            "responses": [
+                "Alzheimer's disease is a progressive disorder that causes brain cells to degenerate and die, resulting in memory loss and decline in cognitive abilities.",
+                "Alzheimer's is a type of dementia that affects memory, thinking, and behavior. It is caused by the degeneration and death of brain cells.",
+                "Alzheimer's disease is a brain disorder that slowly destroys memory and thinking skills. It is the most common cause of dementia."
+            ]
+        },
+        {
+            "tag": "alzheimers_types",
+            "patterns": [
+                "What are the types of Alzheimer's?",
+                "Can you tell me about early-onset Alzheimer's?",
+                "Explain late-onset Alzheimer's",
+                "What are the different types of Alzheimer's disease?",
+                "Types of Alzheimer's"
+            ],
+            "responses": [
+                "Alzheimer's disease may be categorized based on age of onset, such as early-onset Alzheimer's and late-onset Alzheimer's. It can also be classified based on the progression and symptoms.",
+                "There are two main types of Alzheimer's disease: early-onset Alzheimer's, which occurs in people under 65, and late-onset Alzheimer's, which is more common and occurs in older adults.",
+                "Alzheimer's types include early-onset Alzheimer's, which appears before age 65, and late-onset Alzheimer's, which typically occurs after age 65."
+            ]
+        },
+        {
+            "tag": "alzheimers_symptoms",
+            "patterns": [
+                "What are the symptoms of Alzheimer's?",
+                "Can you list common Alzheimer's symptoms?",
+                "What are signs of Alzheimer's?",
+                "How do I know if I have Alzheimer's?",
+                "Alzheimer's symptoms",
+                "Signs of Alzheimer's"
+            ],
+            "responses": [
+                "Common symptoms of Alzheimer's disease include memory loss, confusion, difficulty with problem-solving or completing familiar tasks, changes in mood or personality, and withdrawal from social activities. Early detection and management are crucial for improving the quality of life.",
+                "Symptoms of Alzheimer's can include memory loss, confusion, difficulty completing familiar tasks, changes in mood or behavior, and withdrawal from social activities.",
+                "Signs of Alzheimer's may include memory problems, difficulty planning or solving problems, confusion with time or place, trouble understanding visual images, and changes in mood or personality."
+            ]
+        },
+        {
+            "tag": "alzheimers_prevention",
+            "patterns": [
+                "How can I prevent Alzheimer's disease?",
+                "What are ways to reduce Alzheimer's risk?",
+                "Are there lifestyle changes to prevent Alzheimer's?",
+                "How can I lower my chances of getting Alzheimer's?",
+                "Alzheimer's prevention",
+                "Reduce Alzheimer's risk"
+            ],
+            "responses": [
+                "While there's no proven way to prevent Alzheimer's disease, you can reduce your risk through healthy lifestyle choices and brain-healthy habits. This includes staying mentally and socially active, following a heart-healthy diet, exercising regularly, getting quality sleep, and managing stress.",
+                "To reduce the risk of Alzheimer's, stay mentally and socially active, eat a healthy diet, exercise regularly, get enough sleep, and manage stress effectively.",
+                "Preventing Alzheimer's involves maintaining a healthy lifestyle, including a balanced diet, regular exercise, mental stimulation, social engagement, quality sleep, and managing stress."
+            ]
+        },
+        {
+            "tag": "hypertension_general",
+            "patterns": [
+                "What is hypertension?",
+                "Tell me about hypertension",
+                "Explain high blood pressure",
+                "How does hypertension develop?",
+                "What causes hypertension?",
+                "Define hypertension"
+            ],
+            "responses": [
+                "Hypertension, or high blood pressure, is a condition where the force of the blood against the artery walls is consistently too high. It can lead to serious health problems if left untreated.",
+                "Hypertension is a condition in which the blood pressure in the arteries is persistently elevated, which can lead to heart disease and other health issues.",
+                "High blood pressure, or hypertension, is when the force of your blood against the walls of your blood vessels is consistently too high, leading to health problems such as heart disease."
+            ]
+        },
+        {
+            "tag": "hypertension_types",
+            "patterns": [
+                "What are the types of hypertension?",
+                "Can you tell me about primary hypertension?",
+                "Explain secondary hypertension",
+                "What are the different types of hypertension?",
+                "Types of high blood pressure"
+            ],
+            "responses": [
+                "Hypertension may be classified as primary hypertension, which has no identifiable cause, and secondary hypertension, which is caused by an underlying condition such as kidney disease or hormonal disorders.",
+                "The main types of hypertension are primary hypertension, which has no known cause, and secondary hypertension, which is caused by another medical condition.",
+                "There are two types of hypertension: primary hypertension, which develops over many years without a known cause, and secondary hypertension, which is caused by an underlying health condition."
+            ]
+        },
+        {
+            "tag": "hypertension_symptoms",
+            "patterns": [
+                "What are the symptoms of hypertension?",
+                "Can you list common hypertension symptoms?",
+                "What are signs of high blood pressure?",
+                "How do I know if I have hypertension?",
+                "Hypertension symptoms",
+                "Signs of high blood pressure"
+            ],
+            "responses": [
+                "Hypertension is often asymptomatic, but severe cases or hypertensive crises may present symptoms such as severe headache, chest pain, difficulty breathing, visual changes, and nosebleeds.",
+                "Symptoms of severe hypertension can include severe headache, chest pain, difficulty breathing, vision problems, and nosebleeds. Most people with high blood pressure don't have symptoms.",
+                "Signs of high blood pressure may include severe headaches, chest pain, shortness of breath, visual changes, and nosebleeds. It's often called the 'silent killer' because it may not show symptoms for many years."
+            ]
+        },
+        {
+            "tag": "hypertension_prevention",
+            "patterns": [
+                "How can I prevent hypertension?",
+                "What are ways to reduce high blood pressure?",
+                "Are there lifestyle changes to prevent hypertension?",
+                "How can I lower my chances of getting hypertension?",
+                "Hypertension prevention",
+                "Reduce high blood pressure risk"
+            ],
+            "responses": [
+                "Preventing hypertension involves adopting a healthy lifestyle and making smart choices. This includes maintaining a healthy weight, following a balanced diet low in sodium and saturated fats, limiting alcohol consumption, exercising regularly, managing stress, and monitoring your blood pressure.",
+                "You can prevent high blood pressure by eating a balanced diet, maintaining a healthy weight, staying physically active, limiting alcohol intake, and avoiding smoking.",
+                "To reduce the risk of hypertension, focus on a healthy diet, regular exercise, maintaining a healthy weight, avoiding excessive alcohol consumption, and not smoking."
+            ]
+        },
+        {
+            "tag": "stroke_general",
+            "patterns": [
+                "What is a stroke?",
+                "Tell me about strokes",
+                "Explain stroke types",
+                "How does a stroke develop?",
+                "What causes a stroke?",
+                "Define stroke"
+            ],
+            "responses": [
+                "A stroke occurs when the blood supply to part of the brain is interrupted or reduced, depriving brain tissue of oxygen and nutrients. This can result in brain damage and potentially permanent disability or death.",
+                "A stroke happens when the blood flow to an area of the brain is cut off, causing brain cells to die. This can result in loss of function controlled by that area of the brain.",
+                "A stroke is a medical emergency that occurs when the blood supply to part of your brain is interrupted or reduced, preventing brain tissue from getting oxygen and nutrients."
+            ]
+        },
+        {
+            "tag": "stroke_types",
+            "patterns": [
+                "What are the types of strokes?",
+                "Can you tell me about ischemic stroke?",
+                "Explain hemorrhagic stroke",
+                "What are the different types of strokes?",
+                "Types of brain strokes"
+            ],
+            "responses": [
+                "Strokes may be classified as ischemic stroke, caused by a blockage in a blood vessel supplying the brain, or hemorrhagic stroke, caused by bleeding in the brain. Each type has specific characteristics and treatment approaches.",
+                "The main types of stroke are ischemic stroke, which is caused by a blockage, and hemorrhagic stroke, which is caused by bleeding in the brain.",
+                "There are two main types of strokes: ischemic strokes, which occur due to blockages, and hemorrhagic strokes, which occur due to bleeding in the brain."
+            ]
+        },
+        {
+            "tag": "stroke_symptoms",
+            "patterns": [
+                "What are the symptoms of a stroke?",
+                "Can you list common stroke symptoms?",
+                "What are signs of a stroke?",
+                "How do I know if I have a stroke?",
+                "Stroke symptoms",
+                "Signs of a stroke"
+            ],
+            "responses": [
+                "Symptoms of a stroke may include sudden numbness or weakness of the face, arm, or leg, especially on one side of the body, confusion, trouble speaking or understanding speech, difficulty walking, dizziness, and severe headache.",
+                "Common symptoms of a stroke include sudden numbness or weakness, especially on one side of the body, confusion, trouble speaking or understanding, vision problems, difficulty walking, and a severe headache.",
+                "Signs of a stroke can include sudden weakness or numbness in the face, arm, or leg, confusion, trouble speaking, vision problems, difficulty walking, and a severe headache. It's crucial to seek medical attention immediately."
+            ]
+        },
+        {
+            "tag": "stroke_prevention",
+            "patterns": [
+                "How can I prevent strokes?",
+                "What are ways to reduce stroke risk?",
+                "Are there lifestyle changes to prevent strokes?",
+                "How can I lower my chances of getting a stroke?",
+                "Stroke prevention",
+                "Reduce stroke risk"
+            ],
+            "responses": [
+                "Preventing strokes involves making healthy lifestyle choices and managing underlying health conditions. This includes controlling high blood pressure, cholesterol levels, and diabetes, maintaining a healthy weight, following a balanced diet, exercising regularly, avoiding smoking, and limiting alcohol consumption.",
+                "You can reduce your risk of stroke by controlling your blood pressure, maintaining a healthy weight, eating a healthy diet, staying active, avoiding smoking, and limiting alcohol intake.",
+                "To prevent strokes, focus on managing your health conditions, eating a balanced diet, staying physically active, maintaining a healthy weight, avoiding smoking, and limiting alcohol consumption."
+            ]
+        },
+        {
+            "tag": "mental_health_general",
+            "patterns": [
+                "What is mental health?",
+                "Tell me about mental health",
+                "Explain mental health",
+                "How important is mental health?",
+                "Define mental health"
+            ],
+            "responses": [
+                "Mental health includes our emotional, psychological, and social well-being. It affects how we think, feel, and act. It also helps determine how we handle stress, relate to others, and make choices.",
+                "Mental health refers to cognitive, behavioral, and emotional well-being. It's about how people think, feel, and behave.",
+                "Mental health is an essential part of overall health. It involves emotional, psychological, and social well-being, affecting how we handle stress, relate to others, and make decisions."
+            ]
+        },
+        {
+            "tag": "mental_health_conditions",
+            "patterns": [
+                "What are common mental health conditions?",
+                "Can you list mental health disorders?",
+                "Explain anxiety disorder",
+                "What is depression?",
+                "What are the different mental health conditions?"
+            ],
+            "responses": [
+                "Common mental health conditions include anxiety disorders, depression, bipolar disorder, schizophrenia, and post-traumatic stress disorder (PTSD). Each condition has specific symptoms and treatment options.",
+                "Some common mental health disorders are anxiety disorders, depression, bipolar disorder, schizophrenia, and PTSD.",
+                "Mental health conditions include anxiety, depression, bipolar disorder, schizophrenia, and PTSD, each with unique symptoms and treatments."
+            ]
+        },
+        {
+            "tag": "mental_health_symptoms",
+            "patterns": [
+                "What are the symptoms of anxiety?",
+                "Can you list common depression symptoms?",
+                "What are signs of PTSD?",
+                "How do I know if I have a mental health disorder?",
+                "Mental health symptoms",
+                "Signs of mental health conditions"
+            ],
+            "responses": [
+                "Symptoms of anxiety can include excessive worry, restlessness, fatigue, difficulty concentrating, and sleep disturbances. Depression symptoms often include persistent sadness, loss of interest in activities, changes in appetite or weight, and feelings of hopelessness. PTSD symptoms can include flashbacks, nightmares, and severe anxiety.",
+                "Common symptoms of anxiety include excessive worry, restlessness, and fatigue. Depression symptoms may include persistent sadness and loss of interest. PTSD symptoms can involve flashbacks and severe anxiety.",
+                "Signs of mental health conditions vary but may include persistent sadness, excessive worry, mood swings, social withdrawal, and changes in sleeping or eating habits."
+            ]
+        },
+        {
+            "tag": "mental_health_prevention",
+            "patterns": [
+                "How can I maintain good mental health?",
+                "What are ways to prevent mental health issues?",
+                "Are there lifestyle changes to support mental health?",
+                "How can I improve my mental health?",
+                "Mental health prevention",
+                "Maintain good mental health"
+            ],
+            "responses": [
+                "Maintaining good mental health involves practicing self-care, managing stress, staying connected with loved ones, seeking professional help when needed, staying physically active, and maintaining a healthy diet.",
+                "To support mental health, practice self-care, manage stress, maintain social connections, seek professional help if needed, exercise regularly, and eat a balanced diet.",
+                "You can improve your mental health by managing stress, staying connected with friends and family, seeking professional help when necessary, staying active, and eating a healthy diet."
+            ]
+        },
+        {
+            "tag": "cancer_hospitals",
+            "patterns": [
+                "Which hospitals treat cancer?",
+                "Best hospitals for cancer treatment",
+                "Where should I go for cancer treatment?",
+                "Cancer treatment centers",
+                "Hospitals specializing in cancer"
+            ],
+            "responses": [
+                "Some of the top hospitals for cancer treatment include MD Anderson Cancer Center, Mayo Clinic, Cleveland Clinic, and Memorial Sloan Kettering Cancer Center."
+            ]
+        },
+        {
+            "tag": "cancer_history",
+            "patterns": [
+                "Tell me about the history of cancer",
+                "History of cancer treatment",
+                "How long has cancer been known?",
+                "Origins of cancer treatment",
+                "Historical perspective on cancer"
+            ],
+            "responses": [
+                "Cancer has been known to humans for thousands of years. The earliest descriptions date back to ancient Egypt and Greece. Modern cancer treatment began in the late 19th century with the development of surgery, and significant advances were made throughout the 20th century with the advent of chemotherapy, radiation therapy, and targeted therapies."
+            ]
+        },
+        {
+            "tag": "cancer_infection_rate",
+            "patterns": [
+                "What is the cancer infection rate?",
+                "How many people get cancer each year?",
+                "Cancer incidence rate",
+                "Annual cancer diagnosis statistics",
+                "How common is cancer?"
+            ],
+            "responses": [
+                "Approximately 1.9 million new cancer cases are diagnosed each year in the United States alone. The risk of developing cancer increases with age, and about 39.5% of men and women will be diagnosed with cancer at some point during their lifetimes."
+            ]
+        },
+        {
+            "tag": "cancer_recovery_rate",
+            "patterns": [
+                "What is the cancer recovery rate?",
+                "Chances of surviving cancer",
+                "Cancer survival statistics",
+                "Percentage of cancer patients who recover",
+                "Cancer treatment success rate"
+            ],
+            "responses": [
+                "Cancer survival rates vary significantly by type and stage of cancer. The 5-year relative survival rate for all cancers combined is around 67% in the United States. Early detection and advances in treatment have significantly improved survival rates for many types of cancer."
+            ]
+        },
+        {
+            "tag": "cancer_diet",
+            "patterns": [
+                "What foods should cancer patients eat?",
+                "Best diet for cancer patients",
+                "Foods to avoid with cancer",
+                "Healthy eating for cancer patients",
+                "Nutrition advice for cancer"
+            ],
+            "responses": [
+                "Cancer patients should focus on a balanced diet rich in fruits, vegetables, whole grains, and lean proteins. Foods high in antioxidants, such as berries and leafy greens, are beneficial. It’s also important to stay hydrated and avoid processed foods and excessive sugar."
+            ]
+        },
+        {
+            "tag": "cancer_exercise",
+            "patterns": [
+                "How does exercise help cancer patients?",
+                "Benefits of exercise for cancer",
+                "Should cancer patients exercise?",
+                "Exercise recommendations for cancer patients",
+                "Physical activity and cancer recovery"
+            ],
+            "responses": [
+                "Exercise can help cancer patients manage side effects, improve mood, and boost overall health. Regular physical activity has been shown to reduce fatigue, improve cardiovascular health, and enhance quality of life. Always consult with a healthcare provider before starting any exercise regimen."
+            ]
+        },
+        {
+            "tag": "airborne_diseases",
+            "patterns": [
+                "What are airborne diseases?",
+                "Examples of airborne diseases",
+                "How do airborne diseases spread?",
+                "Common airborne infections",
+                "Preventing airborne diseases"
+            ],
+            "responses": [
+                "Airborne diseases are infections spread through particles in the air, such as droplets or dust. Common airborne diseases include the flu, tuberculosis, measles, and COVID-19. Preventive measures include vaccination, wearing masks, and maintaining good ventilation."
+            ]
+        },
+        {
+            "tag": "communicable_diseases",
+            "patterns": [
+                "What are communicable diseases?",
+                "Examples of communicable diseases",
+                "How do communicable diseases spread?",
+                "Common infectious diseases",
+                "Preventing communicable diseases"
+            ],
+            "responses": [
+                "Communicable diseases are infections that can be transmitted from person to person. Examples include influenza, HIV/AIDS, tuberculosis, and COVID-19. They spread through various means such as direct contact, airborne particles, and contaminated surfaces. Prevention includes good hygiene, vaccination, and avoiding close contact with infected individuals."
+            ]
+        },
+        {
+            "tag": "diabetes_hospitals",
+            "patterns": [
+                "Which hospitals treat diabetes?",
+                "Best hospitals for diabetes treatment",
+                "Where should I go for diabetes treatment?",
+                "Diabetes treatment centers",
+                "Hospitals specializing in diabetes"
+            ],
+            "responses": [
+                "Top hospitals for diabetes treatment include Mayo Clinic, Cleveland Clinic, Johns Hopkins Hospital, and Massachusetts General Hospital."
+            ]
+        },
+        {
+            "tag": "diabetes_history",
+            "patterns": [
+                "Tell me about the history of diabetes",
+                "History of diabetes treatment",
+                "How long has diabetes been known?",
+                "Origins of diabetes treatment",
+                "Historical perspective on diabetes"
+            ],
+            "responses": [
+                "Diabetes has been recognized since ancient times, with descriptions in Egyptian, Indian, and Chinese texts. The modern understanding of diabetes began in the 19th century with the discovery of insulin in the early 20th century being a landmark development in treatment."
+            ]
+        },
+        {
+            "tag": "diabetes_infection_rate",
+            "patterns": [
+                "What is the diabetes infection rate?",
+                "How many people get diabetes each year?",
+                "Diabetes incidence rate",
+                "Annual diabetes diagnosis statistics",
+                "How common is diabetes?"
+            ],
+            "responses": [
+                "As of recent statistics, approximately 34.2 million people in the United States have diabetes, and about 1.5 million new cases are diagnosed each year. The prevalence of diabetes is increasing worldwide, particularly in developing countries."
+            ]
+        },
+        {
+            "tag": "diabetes_recovery_rate",
+            "patterns": [
+                "What is the diabetes recovery rate?",
+                "Chances of managing diabetes",
+                "Diabetes management success",
+                "Percentage of diabetes patients who recover",
+                "Diabetes treatment success rate"
+            ],
+            "responses": [
+                "Diabetes is a chronic condition that can be managed effectively with medication, diet, and lifestyle changes. While it is not curable, proper management can lead to a significant reduction in symptoms and complications. The success rate for managing diabetes varies depending on adherence to treatment and lifestyle adjustments."
+            ]
+        },
+        {
+            "tag": "diabetes_diet",
+            "patterns": [
+                "What foods should diabetes patients eat?",
+                "Best diet for diabetes patients",
+                "Foods to avoid with diabetes",
+                "Healthy eating for diabetes patients",
+                "Nutrition advice for diabetes"
+            ],
+            "responses": [
+                "Diabetes patients should focus on a balanced diet rich in vegetables, fruits, whole grains, lean proteins, and healthy fats. It’s important to monitor carbohydrate intake and choose foods with a low glycemic index. Avoid sugary drinks and limit foods high in saturated fats."
+            ]
+        },
+        {
+            "tag": "diabetes_exercise",
+            "patterns": [
+                "How does exercise help diabetes patients?",
+                "Benefits of exercise for diabetes",
+                "Should diabetes patients exercise?",
+                "Exercise recommendations for diabetes patients",
+                "Physical activity and diabetes management"
+            ],
+            "responses": [
+                "Exercise helps diabetes patients by improving insulin sensitivity, lowering blood sugar levels, and reducing the risk of cardiovascular disease. Regular physical activity, such as walking, swimming, or cycling, can greatly benefit diabetes management. Always consult with a healthcare provider before starting any new exercise program."
+            ]
+        },
+        {
+            "tag": "alzheimers_hospitals",
+            "patterns": [
+                "Which hospitals treat Alzheimer's?",
+                "Best hospitals for Alzheimer's treatment",
+                "Where should I go for Alzheimer's treatment?",
+                "Alzheimer's treatment centers",
+                "Hospitals specializing in Alzheimer's"
+            ],
+            "responses": [
+                "Top hospitals for Alzheimer's treatment include Mayo Clinic, Cleveland Clinic, Johns Hopkins Hospital, and Massachusetts General Hospital."
+            ]
+        },
+        {
+            "tag": "alzheimers_history",
+            "patterns": [
+                "Tell me about the history of Alzheimer's",
+                "History of Alzheimer's treatment",
+                "How long has Alzheimer's been known?",
+                "Origins of Alzheimer's treatment",
+                "Historical perspective on Alzheimer's"
+            ],
+            "responses": [
+                "Alzheimer's disease was first identified in 1906 by Dr. Alois Alzheimer. Since then, significant advances have been made in understanding the disease, although a cure has not yet been found. Research has focused on the role of amyloid plaques and neurofibrillary tangles in the brain."
+            ]
+        },
+        {
+            "tag": "alzheimers_infection_rate",
+            "patterns": [
+                "What is the Alzheimer's infection rate?",
+                "How many people get Alzheimer's each year?",
+                "Alzheimer's incidence rate",
+                "Annual Alzheimer's diagnosis statistics",
+                "How common is Alzheimer's?"
+            ],
+            "responses": [
+                "Approximately 6.2 million Americans aged 65 and older are living with Alzheimer's disease. The incidence of Alzheimer's increases with age, and it is estimated that nearly one in nine people aged 65 and older has Alzheimer's."
+            ]
+        },
+        {
+            "tag": "alzheimers_recovery_rate",
+            "patterns": [
+                "What is the Alzheimer's recovery rate?",
+                "Chances of recovering from Alzheimer's",
+                "Alzheimer's treatment success",
+                "Percentage of Alzheimer's patients who recover",
+                "Alzheimer's treatment success rate"
+            ],
+            "responses": [
+                "Currently, there is no cure for Alzheimer's disease, and it is progressive, meaning it worsens over time. Treatments can help manage symptoms and improve quality of life, but they do not stop the disease's progression. Early diagnosis and intervention are crucial for managing symptoms effectively."
+            ]
+        },
+        {
+            "tag": "alzheimers_diet",
+            "patterns": [
+                "What foods should Alzheimer's patients eat?",
+                "Best diet for Alzheimer's patients",
+                "Foods to avoid with Alzheimer's",
+                "Healthy eating for Alzheimer's patients",
+                "Nutrition advice for Alzheimer's"
+            ],
+            "responses": [
+                "A diet rich in fruits, vegetables, whole grains, lean proteins, and healthy fats is beneficial for Alzheimer's patients. The Mediterranean diet and the DASH diet have been shown to support brain health. It's also important to stay hydrated and limit processed foods and sugar."
+            ]
+        },
+        {
+            "tag": "alzheimers_exercise",
+            "patterns": [
+                "How does exercise help Alzheimer's patients?",
+                "Benefits of exercise for Alzheimer's",
+                "Should Alzheimer's patients exercise?",
+                "Exercise recommendations for Alzheimer's patients",
+                "Physical activity and Alzheimer's management"
+            ],
+            "responses": [
+                "Exercise can help Alzheimer's patients by improving mood, reducing stress, and potentially slowing cognitive decline. Activities such as walking, swimming, and yoga are beneficial. Exercise also helps maintain physical health, which is crucial for overall well-being."
+            ]
+        },
+        {
+            "tag": "hypertension_hospitals",
+            "patterns": [
+                "Which hospitals treat hypertension?",
+                "Best hospitals for hypertension treatment",
+                "Where should I go for hypertension treatment?",
+                "Hypertension treatment centers",
+                "Hospitals specializing in hypertension"
+            ],
+            "responses": [
+                "Top hospitals for hypertension treatment include Mayo Clinic, Cleveland Clinic, Johns Hopkins Hospital, and Massachusetts General Hospital."
+            ]
+        },
+        {
+            "tag": "hypertension_history",
+            "patterns": [
+                "Tell me about the history of hypertension",
+                "History of hypertension treatment",
+                "How long has hypertension been known?",
+                "Origins of hypertension treatment",
+                "Historical perspective on hypertension"
+            ],
+            "responses": [
+                "Hypertension, or high blood pressure, has been known since ancient times, but it was not well understood until the 20th century. The development of blood pressure measurement techniques and antihypertensive medications has significantly advanced the management of hypertension."
+            ]
+        },
+        {
+            "tag": "hypertension_infection_rate",
+            "patterns": [
+                "What is the hypertension infection rate?",
+                "How many people have hypertension each year?",
+                "Hypertension incidence rate",
+                "Annual hypertension diagnosis statistics",
+                "How common is hypertension?"
+            ],
+            "responses": [
+                "Hypertension is extremely common, affecting about 45% of adults in the United States. Globally, it is estimated that over 1.13 billion people have hypertension, making it one of the most prevalent chronic conditions."
+            ]
+        },
+        {
+            "tag": "hypertension_recovery_rate",
+            "patterns": [
+                "What is the hypertension recovery rate?",
+                "Chances of managing hypertension",
+                "Hypertension management success",
+                "Percentage of hypertension patients who recover",
+                "Hypertension treatment success rate"
+            ],
+            "responses": [
+                "Hypertension is a chronic condition that can be managed effectively with lifestyle changes and medication. While it cannot be cured, proper management can significantly reduce the risk of complications. Many patients achieve good blood pressure control with consistent treatment and lifestyle adjustments."
+            ]
+        },
+        {
+            "tag": "hypertension_diet",
+            "patterns": [
+                "What foods should hypertension patients eat?",
+                "Best diet for hypertension patients",
+                "Foods to avoid with hypertension",
+                "Healthy eating for hypertension patients",
+                "Nutrition advice for hypertension"
+            ],
+            "responses": [
+                "Hypertension patients should follow a diet low in sodium, rich in fruits, vegetables, whole grains, lean proteins, and low-fat dairy products. The DASH diet is particularly recommended for lowering blood pressure. Avoiding processed foods and limiting alcohol intake is also important."
+            ]
+        },
+        {
+            "tag": "hypertension_exercise",
+            "patterns": [
+                "How does exercise help hypertension patients?",
+                "Benefits of exercise for hypertension",
+                "Should hypertension patients exercise?",
+                "Exercise recommendations for hypertension patients",
+                "Physical activity and hypertension management"
+            ],
+            "responses": [
+                "Exercise helps lower blood pressure by improving heart health and reducing stress. Regular physical activity, such as walking, cycling, or swimming, can help manage hypertension. It’s recommended to engage in at least 150 minutes of moderate-intensity exercise per week."
+            ]
+        },
+        {
+            "tag": "stroke_hospitals",
+            "patterns": [
+                "Which hospitals treat stroke?",
+                "Best hospitals for stroke treatment",
+                "Where should I go for stroke treatment?",
+                "Stroke treatment centers",
+                "Hospitals specializing in stroke"
+            ],
+            "responses": [
+                "Top hospitals for stroke treatment include Mayo Clinic, Cleveland Clinic, Johns Hopkins Hospital, and Massachusetts General Hospital."
+            ]
+        },
+        {
+            "tag": "stroke_history",
+            "patterns": [
+                "Tell me about the history of stroke",
+                "History of stroke treatment",
+                "How long has stroke been known?",
+                "Origins of stroke treatment",
+                "Historical perspective on stroke"
+            ],
+            "responses": [
+                "Stroke has been recognized since ancient times, but the understanding and treatment have advanced significantly in the past century. The development of imaging techniques and thrombolytic therapy has greatly improved outcomes for stroke patients."
+            ]
+        },
+        {
+            "tag": "stroke_infection_rate",
+            "patterns": [
+                "What is the stroke infection rate?",
+                "How many people have strokes each year?",
+                "Stroke incidence rate",
+                "Annual stroke diagnosis statistics",
+                "How common are strokes?"
+            ],
+            "responses": [
+                "Approximately 795,000 people in the United States have a stroke each year. Strokes are more common in older adults, but they can occur at any age. Globally, stroke is a leading cause of death and disability."
+            ]
+        },
+        {
+            "tag": "stroke_recovery_rate",
+            "patterns": [
+                "What is the stroke recovery rate?",
+                "Chances of recovering from a stroke",
+                "Stroke treatment success",
+                "Percentage of stroke patients who recover",
+                "Stroke treatment success rate"
+            ],
+            "responses": [
+                "Recovery from a stroke varies widely depending on the severity and type of stroke, as well as the speed of medical intervention. Early treatment can significantly improve outcomes. Approximately 10% of stroke survivors recover almost completely, while 25% recover with minor impairments."
+            ]
+        },
+        {
+            "tag": "stroke_diet",
+            "patterns": [
+                "What foods should stroke patients eat?",
+                "Best diet for stroke patients",
+                "Foods to avoid after a stroke",
+                "Healthy eating for stroke patients",
+                "Nutrition advice for stroke"
+            ],
+            "responses": [
+                "Stroke patients should follow a diet low in saturated fats, trans fats, and cholesterol. A diet rich in fruits, vegetables, whole grains, lean proteins, and low-fat dairy products can help reduce the risk of another stroke. The Mediterranean diet is often recommended for cardiovascular health."
+            ]
+        },
+        {
+            "tag": "stroke_exercise",
+            "patterns": [
+                "How does exercise help stroke patients?",
+                "Benefits of exercise for stroke recovery",
+                "Should stroke patients exercise?",
+                "Exercise recommendations for stroke patients",
+                "Physical activity and stroke recovery"
+            ],
+            "responses": [
+                "Exercise can help stroke patients regain strength, coordination, and balance. It also improves cardiovascular health and reduces the risk of another stroke. Rehabilitation exercises, walking, and physical therapy are important components of stroke recovery."
+            ]
+        },
+        {
+            "tag": "mental_health_hospitals",
+            "patterns": [
+                "Which hospitals treat mental health issues?",
+                "Best hospitals for mental health treatment",
+                "Where should I go for mental health treatment?",
+                "Mental health treatment centers",
+                "Hospitals specializing in mental health"
+            ],
+            "responses": [
+                "Top hospitals for mental health treatment include Mayo Clinic, Johns Hopkins Hospital, Menninger Clinic, and Massachusetts General Hospital."
+            ]
+        },
+        {
+            "tag": "mental_health_history",
+            "patterns": [
+                "Tell me about the history of mental health",
+                "History of mental health treatment",
+                "How long have mental health issues been known?",
+                "Origins of mental health treatment",
+                "Historical perspective on mental health"
+            ],
+            "responses": [
+                "The understanding of mental health has evolved significantly over centuries. Early treatments were often inhumane, but the 20th century saw the development of psychotherapy, psychotropic medications, and a more humane approach to treatment. Mental health awareness and treatment continue to advance today."
+            ]
+        },
+        {
+            "tag": "mental_health_infection_rate",
+            "patterns": [
+                "What is the rate of mental health issues?",
+                "How many people have mental health issues each year?",
+                "Mental health incidence rate",
+                "Annual mental health diagnosis statistics",
+                "How common are mental health issues?"
+            ],
+            "responses": [
+                "Mental health issues are very common, affecting millions of people worldwide. In the United States, approximately one in five adults experiences a mental health condition each year. The incidence of mental health issues is increasing, partly due to greater awareness and diagnosis."
+            ]
+        },
+        {
+            "tag": "mental_health_recovery_rate",
+            "patterns": [
+                "What is the mental health recovery rate?",
+                "Chances of recovering from mental health issues",
+                "Mental health treatment success",
+                "Percentage of mental health patients who recover",
+                "Mental health treatment success rate"
+            ],
+            "responses": [
+                "Recovery rates for mental health issues vary widely depending on the condition and individual circumstances. With proper treatment, many people experience significant improvement in their symptoms and quality of life. Early intervention and ongoing support are crucial for successful recovery."
+            ]
+        },
+        {
+            "tag": "mental_health_diet",
+            "patterns": [
+                "What foods should people with mental health issues eat?",
+                "Best diet for mental health",
+                "Foods to avoid for mental health",
+                "Healthy eating for mental health",
+                "Nutrition advice for mental health"
+            ],
+            "responses": [
+                "A balanced diet rich in fruits, vegetables, whole grains, lean proteins, and healthy fats can support mental health. Foods high in omega-3 fatty acids, such as fish and nuts, are particularly beneficial. It's also important to avoid excessive caffeine, sugar, and alcohol."
+            ]
+        },
+        {
+            "tag": "mental_health_exercise",
+            "patterns": [
+                "How does exercise help mental health?",
+                "Benefits of exercise for mental health",
+                "Should people with mental health issues exercise?",
+                "Exercise recommendations for mental health",
+                "Physical activity and mental health"
+            ],
+            "responses": [
+                "Exercise is beneficial for mental health as it reduces stress, anxiety, and depression. Physical activity releases endorphins, which improve mood and overall well-being. Regular exercise, such as walking, running, or yoga, can be an important part of a mental health treatment plan."
+            ]
+        },
+        {
+            "tag": "fungal_infections",
+            "patterns": [
+                "What are fungal infections?",
+                "Tell me about fungal infections",
+                "Types of fungal infections",
+                "How do fungal infections develop?"
+            ],
+            "responses": [
+                "Fungal infections are caused by fungi and can affect different parts of the body. Types include athlete's foot, ringworm, and yeast infections. They typically develop in warm, moist environments or through contact with infected surfaces.",
+                "Symptoms may include redness, itching, swelling, and in severe cases, blistering or cracking of the skin.",
+                "Treatment involves antifungal medications such as clotrimazole or terbinafine, applied topically or taken orally depending on the severity.",
+                "Healing time varies but may take several weeks to resolve completely with proper treatment and avoiding reinfection.",
+                "A healthy diet rich in fruits, vegetables, and probiotics supports recovery. Avoid sugary foods that can promote fungal growth.",
+                "Exercise promotes circulation and immune function, which can aid in recovery from fungal infections."
+            ]
+        },
+        {
+            "tag": "allergy",
+            "patterns": [
+                "What are allergies?",
+                "Tell me about allergies",
+                "Types of allergies",
+                "How do allergies develop?"
+            ],
+            "responses": [
+                "Allergies occur when the immune system reacts to a substance (allergen) that is typically harmless. Common allergens include pollen, pet dander, foods, and certain medications.",
+                "Symptoms range from mild (itchy eyes, sneezing) to severe (anaphylaxis).",
+                "Treatment involves avoiding allergens and medications like antihistamines or epinephrine for severe reactions.",
+                "Recovery time depends on the allergen and individual response. Managing allergies is typically long-term.",
+                "A balanced diet rich in anti-inflammatory foods like fruits, vegetables, and omega-3 fatty acids can help.",
+                "Regular exercise can boost immunity and overall health, potentially reducing allergy symptoms."
+            ]
+        },
+        {
+            "tag": "GERD",
+            "patterns": [
+                "What is GERD?",
+                "Tell me about GERD",
+                "GERD symptoms",
+                "How does GERD develop?"
+            ],
+            "responses": [
+                "GERD (Gastroesophageal Reflux Disease) is a digestive disorder where stomach acid or bile irritates the food pipe lining. Symptoms include heartburn, acid reflux, and regurgitation.",
+                "Causes include weak lower esophageal sphincter (LES), hiatal hernia, and abnormal stomach function.",
+                "Treatment involves lifestyle changes (diet, eating habits), medications (antacids, proton pump inhibitors), and in severe cases, surgery.",
+                "Healing time varies. Symptoms can improve quickly with treatment, but GERD often requires long-term management.",
+                "Avoiding trigger foods (spicy, acidic) and eating smaller, more frequent meals can help. Avoid late-night eating and lying down after meals.",
+                "Exercises like walking and yoga can aid digestion and weight management, reducing GERD symptoms."
+            ]
+        },
+        {
+            "tag": "chronic_cholestasis",
+            "patterns": [
+                "What is chronic cholestasis?",
+                "Tell me about chronic cholestasis",
+                "Chronic cholestasis symptoms",
+                "How does chronic cholestasis develop?"
+            ],
+            "responses": [
+                "Chronic cholestasis is a condition where bile flow from the liver is reduced or blocked long-term. It can lead to symptoms like itching, fatigue, and jaundice (yellowing of skin and eyes).",
+                "Causes include bile duct blockages (gallstones, tumors), genetic factors, and certain medications.",
+                "Treatment focuses on managing symptoms and treating underlying causes. Medications, procedures (ERCP), and in severe cases, liver transplant may be necessary.",
+                "Healing time depends on the severity and underlying cause. Management is often lifelong.",
+                "A low-fat diet with adequate nutrients supports liver function. Avoiding alcohol and certain medications is crucial.",
+                "Regular exercise promotes overall health and may help manage symptoms of chronic cholestasis."
+            ]
+        },
+        {
+            "tag": "drug_reaction",
+            "patterns": [
+                "What is a drug reaction?",
+                "Tell me about drug reactions",
+                "Types of drug reactions",
+                "How do drug reactions occur?"
+            ],
+            "responses": [
+                "A drug reaction is an adverse or unexpected response to a medication or drug. It can range from mild symptoms to severe allergic reactions.",
+                "Causes include allergies, side effects, interactions with other medications, and individual sensitivity.",
+                "Treatment involves stopping the offending medication, managing symptoms (antihistamines, steroids), and in severe cases, emergency medical attention.",
+                "Recovery time varies based on the severity of the reaction and individual health.",
+                "Avoiding the triggering medication and informing healthcare providers about allergies or previous reactions is essential.",
+                "Maintaining a balanced diet and avoiding unnecessary medications can reduce the risk of drug reactions."
+            ]
+        },
+        {
+            "tag": "peptic_ulcer_disease",
+            "patterns": [
+                "What is peptic ulcer disease?",
+                "Tell me about peptic ulcers",
+                "Peptic ulcer symptoms",
+                "How does peptic ulcer disease develop?"
+            ],
+            "responses": [
+                "Peptic ulcer disease involves open sores (ulcers) in the lining of the stomach, small intestine, or esophagus. Symptoms may include abdominal pain, bloating, nausea, and heartburn.",
+                "Causes include infection with H. pylori bacteria, long-term use of nonsteroidal anti-inflammatory drugs (NSAIDs), and excessive alcohol consumption.",
+                "Treatment aims to reduce acid production (proton pump inhibitors), kill bacteria (antibiotics), and protect the lining (antacids, sucralfate).",
+                "Healing time varies but may take weeks to months with proper treatment and lifestyle changes.",
+                "Avoiding trigger foods (spicy, acidic), managing stress, and quitting smoking can aid in ulcer healing and prevention.",
+                "Regular exercise can improve digestion and overall health, supporting peptic ulcer management."
+            ]
+        },
+        {
+            "tag": "HIV_AIDS",
+            "patterns": [
+                "What is HIV/AIDS?",
+                "Tell me about HIV/AIDS",
+                "HIV/AIDS symptoms",
+                "How does HIV/AIDS develop?"
+            ],
+            "responses": [
+                "HIV (Human Immunodeficiency Virus) attacks the immune system, weakening the body's ability to fight infections. AIDS (Acquired Immunodeficiency Syndrome) is the most advanced stage of HIV infection.",
+                "Symptoms may not appear for years after infection. Early symptoms include fever, fatigue, swollen lymph nodes, and sore throat.",
+                "Treatment involves antiretroviral therapy (ART) to suppress HIV replication and boost immune function. Medications must be taken consistently to manage HIV/AIDS effectively.",
+                "With proper treatment, people with HIV can live long and healthy lives. AIDS-related complications are preventable with early intervention.",
+                "A nutritious diet rich in fruits, vegetables, and lean proteins supports immune function and overall health for people with HIV/AIDS.",
+                "Exercise helps maintain a healthy weight, manage stress, and improve immune response in people living with HIV/AIDS."
+            ]
+        },
+        {
+            "tag": "gastroenteritis",
+            "patterns": [
+                "What is gastroenteritis?",
+                "Tell me about gastroenteritis",
+                "Gastroenteritis symptoms",
+                "How does gastroenteritis develop?"
+            ],
+            "responses": [
+                "Gastroenteritis is inflammation of the stomach and intestines, often caused by viral or bacterial infections. Symptoms include diarrhea, vomiting, abdominal cramps, and fever.",
+                "Causes include viruses (norovirus, rotavirus), bacteria (Salmonella, E. coli), and parasites (Giardia). Contaminated food or water is a common source of infection.",
+                "Treatment focuses on hydration (oral rehydration solutions), rest, and symptom management (antiemetics, antidiarrheals). Antibiotics may be necessary for bacterial infections.",
+                "Recovery time varies depending on the cause and severity of symptoms. Most cases resolve within a few days to a week.",
+                "Avoiding contaminated food and water, practicing good hygiene, and getting vaccinated (if available) can prevent gastroenteritis.",
+                "A bland diet (BRAT diet - bananas, rice, applesauce, toast) and avoiding spicy or fatty foods help ease symptoms during recovery."
+            ]
+        },
+        {
+            "tag": "bronchial_asthma",
+            "patterns": [
+                "What is bronchial asthma?",
+                "Tell me about bronchial asthma",
+                "Bronchial asthma symptoms",
+                "How does bronchial asthma develop?"
+            ],
+            "responses": [
+                "Bronchial asthma is a chronic respiratory condition characterized by inflammation and narrowing of the airways, causing recurrent episodes of wheezing, breathlessness, chest tightness, and coughing.",
+                "Triggers include allergens (pollen, pet dander), respiratory infections, air pollutants, and exercise-induced factors.",
+                "Treatment includes medications (inhaled corticosteroids, bronchodilators), avoiding triggers, and having an asthma action plan.",
+                "Most people with asthma can lead normal lives with proper management. Quick-relief medications provide immediate relief during asthma attacks.",
+                "Asthma management includes identifying triggers, using medications as prescribed, and monitoring lung function regularly.",
+                "Regular physical activity, such as swimming or walking, can improve lung function and overall health in people with asthma."
+            ]
+        },
+        {
+            "tag": "hypertension",
+            "patterns": [
+                "What is hypertension?",
+                "Tell me about hypertension",
+                "Hypertension symptoms",
+                "How does hypertension develop?"
+            ],
+            "responses": [
+                "Hypertension (high blood pressure) is a condition where the force of blood against artery walls is consistently too high. It often has no symptoms but can lead to serious health issues over time.",
+                "Causes include genetics, unhealthy lifestyle (diet high in salt, lack of exercise), stress, and underlying health conditions.",
+                "Treatment involves lifestyle changes (diet, exercise), medications (antihypertensives), and managing underlying conditions like diabetes or kidney disease.",
+                "Management focuses on maintaining a healthy blood pressure range to reduce the risk of heart disease, stroke, and other complications.",
+                "A low-sodium diet rich in fruits, vegetables, and whole grains supports blood pressure control. Limiting alcohol and caffeine intake is beneficial.",
+                "Regular physical activity, such as brisk walking or cycling, helps lower blood pressure and improve cardiovascular health."
+            ]
+        },
+        {
+            "tag": "migraine",
+            "patterns": [
+                "What is a migraine?",
+                "Tell me about migraines",
+                "Migraine symptoms",
+                "How do migraines develop?"
+            ],
+            "responses": [
+                "A migraine is a neurological condition characterized by recurrent, severe headaches often accompanied by sensory disturbances (aura), nausea, and sensitivity to light and sound.",
+                "Triggers include hormonal changes, certain foods (chocolate, cheese), stress, lack of sleep, and environmental factors.",
+                "Treatment includes medications (pain relievers, triptans), lifestyle changes (stress management, regular sleep patterns), and identifying triggers.",
+                "Migraine management aims to reduce the frequency and severity of attacks. Some people may benefit from preventive medications.",
+                "A balanced diet with regular meals, hydration, and avoiding trigger foods (processed foods, caffeine) can help prevent migraines.",
+                "Regular aerobic exercise, such as jogging or swimming, can reduce the frequency and severity of migraines in some individuals."
+            ]
+        },
+        {
+            "tag": "cervical_spondylosis",
+            "patterns": [
+                "What is cervical spondylosis?",
+                "Tell me about cervical spondylosis",
+                "Cervical spondylosis symptoms",
+                "How does cervical spondylosis develop?"
+            ],
+            "responses": [
+                "Cervical spondylosis is a degenerative condition affecting the cervical spine (neck). It results from wear and tear of the spinal discs and vertebrae over time.",
+                "Symptoms include neck pain, stiffness, headaches, and numbness or tingling in the arms or hands.",
+                "Causes include aging, repeated neck movements or injuries, genetics, and poor posture.",
+                "Treatment involves pain management (medications, physical therapy), lifestyle changes (ergonomic adjustments, posture correction), and in severe cases, surgery.",
+                "Recovery time varies depending on the severity and individual response to treatment.",
+                "A balanced diet with adequate calcium and vitamin D supports bone health. Avoiding excessive neck strain and maintaining good posture are important.",
+                "Exercises focusing on neck strength and flexibility, such as gentle stretching and yoga, can alleviate symptoms and prevent progression."
+            ]
+        },
+        {
+            "tag": "paralysis_brain_hemorrhage",
+            "patterns": [
+                "What is paralysis due to brain hemorrhage?",
+                "Tell me about brain hemorrhage paralysis",
+                "Paralysis symptoms after brain hemorrhage",
+                "How does brain hemorrhage cause paralysis?"
+            ],
+            "responses": [
+                "Paralysis due to brain hemorrhage occurs when bleeding in or around the brain damages brain tissue, affecting nerve signals that control muscle movement.",
+                "Symptoms vary depending on the location and extent of bleeding but often include sudden weakness or numbness on one side of the body, difficulty speaking, and loss of coordination.",
+                "Causes include high blood pressure, trauma, aneurysms, arteriovenous malformations (AVMs), and certain medical conditions.",
+                "Treatment involves emergency medical care to stop bleeding, medications to reduce swelling and manage symptoms, and rehabilitation therapies.",
+                "Recovery time varies significantly and may involve intensive rehabilitation to regain lost functions.",
+                "A balanced diet with nutrients that support brain health, such as omega-3 fatty acids and antioxidants, may aid in recovery.",
+                "Physical therapy and exercises tailored to improve strength, coordination, and mobility are crucial parts of rehabilitation for paralysis due to brain hemorrhage."
+            ]
+        },
+        {
+            "tag": "jaundice",
+            "patterns": [
+                "What is jaundice?",
+                "Tell me about jaundice",
+                "Jaundice symptoms",
+                "How does jaundice develop?"
+            ],
+            "responses": [
+                "Jaundice is a condition where the skin, whites of the eyes, and mucous membranes turn yellow due to high levels of bilirubin in the blood.",
+                "Symptoms include yellow discoloration of the skin, dark urine, pale stools, itching, and abdominal pain.",
+                "Causes include liver diseases (hepatitis, cirrhosis), bile duct obstruction, blood disorders, infections, and certain medications.",
+                "Treatment depends on the underlying cause. It may involve medications, dietary changes, and addressing the underlying condition.",
+                "Recovery time varies based on the cause and severity of jaundice. Acute cases may resolve within weeks, while chronic conditions require ongoing management.",
+                "A low-fat diet with adequate hydration supports liver function. Avoiding alcohol and certain medications is crucial for recovery.",
+                "Gentle exercises like walking promote circulation and overall health, which can support recovery from jaundice."
+            ]
+        },
+        {
+            "tag": "malaria",
+            "patterns": [
+                "What is malaria?",
+                "Tell me about malaria",
+                "Malaria symptoms",
+                "How does malaria develop?"
+            ],
+            "responses": [
+                "Malaria is a mosquito-borne infectious disease caused by parasites of the Plasmodium genus. It is transmitted through the bite of infected Anopheles mosquitoes.",
+                "Symptoms typically include fever, chills, sweats, headaches, muscle aches, and fatigue. In severe cases, malaria can lead to organ failure and death.",
+                "Treatment involves antimalarial medications, such as chloroquine or artemisinin-based combination therapies, depending on the type and severity of malaria.",
+                "Recovery time varies depending on the type of malaria parasite and individual response to treatment.",
+                "Preventive measures include using mosquito nets, insect repellents, and taking antimalarial medications before travel to endemic areas.",
+                "A balanced diet with adequate fluids and rest supports recovery from malaria. Avoiding fatty or heavy meals during fever episodes is recommended.",
+                "Light exercises like stretching can help maintain muscle tone and flexibility during recovery from malaria."
+            ]
+        },
+        {
+            "tag": "chicken_pox",
+            "patterns": [
+                "What is chicken pox?",
+                "Tell me about chicken pox",
+                "Chicken pox symptoms",
+                "How does chicken pox develop?"
+            ],
+            "responses": [
+                "Chicken pox is a highly contagious viral infection caused by the varicella-zoster virus. It primarily affects children but can occur in adults who haven't been vaccinated or previously infected.",
+                "Symptoms include an itchy rash of blisters, fever, headache, and fatigue. The rash typically appears first on the face, chest, and back, then spreads to other parts of the body.",
+                "Treatment focuses on relieving symptoms (antihistamines, calamine lotion) and preventing complications. Acyclovir may be prescribed in severe cases.",
+                "Recovery time varies but usually takes about 1-2 weeks for the rash to crust over and heal completely.",
+                "A balanced diet with plenty of fluids supports healing. Avoid scratching the rash to prevent infection and scarring.",
+                "Rest is important during recovery from chicken pox. Avoiding contact with others, especially pregnant women and those with weakened immune systems, is crucial.",
+                "Gentle activities like walking can promote circulation and help relieve symptoms of chicken pox."
+            ]
+        },
+        {
+            "tag": "dengue",
+            "patterns": [
+                "What is dengue?",
+                "Tell me about dengue",
+                "Dengue symptoms",
+                "How does dengue develop?"
+            ],
+            "responses": [
+                "Dengue fever is a mosquito-borne viral infection caused by the dengue virus. It is transmitted through the bite of infected Aedes mosquitoes.",
+                "Symptoms include sudden onset of high fever, severe headache, pain behind the eyes, joint and muscle pain, rash, and bleeding tendencies.",
+                "Treatment focuses on supportive care (fluids, rest, pain relievers) and monitoring for complications like severe dengue (dengue hemorrhagic fever or dengue shock syndrome).",
+                "Recovery time varies. Most people recover within 1-2 weeks with proper medical care and rest.",
+                "Preventive measures include using mosquito repellents, wearing protective clothing, and eliminating mosquito breeding sites.",
+                "A nutritious diet with adequate fluids supports recovery from dengue. Avoiding aspirin and nonsteroidal anti-inflammatory drugs (NSAIDs) is important due to the risk of bleeding.",
+                "Light exercises like stretching or gentle walking can help maintain muscle tone and flexibility during recovery."
+            ]
+        },
+        {
+            "tag": "hepatitis_A",
+            "patterns": [
+                "What is hepatitis A?",
+                "Tell me about hepatitis A",
+                "Hepatitis A symptoms",
+                "How does hepatitis A develop?"
+            ],
+            "responses": [
+                "Hepatitis A is a viral liver infection caused by the hepatitis A virus (HAV). It is typically transmitted through contaminated food or water or close contact with an infected person.",
+                "Symptoms include fatigue, nausea, vomiting, abdominal pain, clay-colored stools, dark urine, and jaundice (yellowing of the skin and eyes).",
+                "Most people recover fully from hepatitis A with supportive care (rest, fluids, healthy diet). There is no specific treatment.",
+                "Recovery time varies but symptoms usually improve within a few weeks to months.",
+                "Preventive measures include vaccination, practicing good hygiene, and avoiding risky behaviors like sharing needles or consuming contaminated food or water.",
+                "A balanced diet with adequate nutrients supports liver function during recovery from hepatitis A. Avoiding alcohol and certain medications is crucial.",
+                "Gentle exercises like walking promote circulation and overall health, which can aid in recovery."
+            ]
+        },
+        {
+            "tag": "hepatitis_B",
+            "patterns": [
+                "What is hepatitis B?",
+                "Tell me about hepatitis B",
+                "Hepatitis B symptoms",
+                "How does hepatitis B develop?"
+            ],
+            "responses": [
+                "Hepatitis B is a viral liver infection caused by the hepatitis B virus (HBV). It is transmitted through contact with infectious blood or body fluids of an infected person.",
+                "Symptoms can range from mild (fatigue, nausea) to severe (jaundice, abdominal pain). Some people may develop chronic hepatitis B infection, which can lead to liver damage over time.",
+                "Treatment may include antiviral medications to reduce viral replication and liver inflammation. In some cases, liver transplantation may be necessary.",
+                "Recovery time varies. Acute hepatitis B infection may resolve on its own, while chronic infection requires ongoing management.",
+                "Preventive measures include vaccination, using condoms during sexual activity, and avoiding sharing needles or personal hygiene items.",
+                "A balanced diet with adequate protein and vitamins supports liver health during hepatitis B recovery. Avoiding alcohol is crucial for liver function.",
+                "Regular exercise, such as swimming or yoga, can improve overall health and support immune function during hepatitis B recovery."
+            ]
+        },
+        {
+            "tag": "hepatitis_C",
+            "patterns": [
+                "What is hepatitis C?",
+                "Tell me about hepatitis C",
+                "Hepatitis C symptoms",
+                "How does hepatitis C develop?"
+            ],
+            "responses": [
+                "Hepatitis C is a viral liver infection caused by the hepatitis C virus (HCV). It is primarily transmitted through contact with infected blood, often due to sharing needles or receiving contaminated blood products.",
+                "Symptoms may not appear for years after infection. Chronic hepatitis C can lead to liver cirrhosis, liver cancer, or liver failure if left untreated.",
+                "Treatment involves antiviral medications (direct-acting antivirals) to cure the infection and prevent liver damage. Early detection and treatment improve outcomes.",
+                "Recovery time varies depending on the extent of liver damage and individual response to treatment.",
+                "Preventive measures include avoiding sharing needles or personal hygiene items, using condoms during sexual activity, and getting tested for hepatitis C if at risk.",
+                "A balanced diet with adequate protein and vitamins supports liver health during hepatitis C recovery. Avoiding alcohol is crucial for liver function.",
+                "Regular exercise, such as brisk walking or cycling, improves cardiovascular health and overall well-being during hepatitis C recovery."
+            ]
+        },
+        {
+            "tag": "hepatitis_D",
+            "patterns": [
+                "What is hepatitis D?",
+                "Tell me about hepatitis D",
+                "Hepatitis D symptoms",
+                "How does hepatitis D develop?"
+            ],
+            "responses": [
+                "Hepatitis D, also known as delta hepatitis, is a liver infection caused by the hepatitis D virus (HDV). It can only occur in people who are already infected with hepatitis B virus (HBV).",
+                "Symptoms can range from mild to severe and may include fatigue, jaundice, abdominal pain, and liver damage.",
+                "Treatment focuses on managing symptoms and preventing complications. There is no specific antiviral treatment for hepatitis D, but hepatitis B treatment may help.",
+                "Recovery time varies depending on the extent of liver damage and individual response to treatment.",
+                "Preventive measures include vaccination against hepatitis B and avoiding behaviors that increase the risk of hepatitis B and D transmission.",
+                "A balanced diet with adequate protein and vitamins supports liver health during hepatitis D recovery. Avoiding alcohol is crucial for liver function.",
+                "Regular exercise, such as swimming or yoga, can improve overall health and support immune function during hepatitis D recovery."
+            ]
+        },
+        {
+            "tag": "hepatitis_E",
+            "patterns": [
+                "What is hepatitis E?",
+                "Tell me about hepatitis E",
+                "Hepatitis E symptoms",
+                "How does hepatitis E develop?"
+            ],
+            "responses": [
+                "Hepatitis E is a liver infection caused by the hepatitis E virus (HEV). It is transmitted through consuming contaminated water or food, particularly in areas with poor sanitation.",
+                "Symptoms are similar to hepatitis A and include fever, fatigue, nausea, vomiting, abdominal pain, dark urine, and jaundice (yellowing of the skin and eyes).",
+                "Most cases of hepatitis E resolve on their own without treatment. Supportive care (rest, fluids, healthy diet) is recommended.",
+                "Recovery time varies but symptoms usually improve within a few weeks to months.",
+                "Preventive measures include practicing good hygiene, drinking safe water, and avoiding raw or undercooked shellfish and pork.",
+                "A balanced diet with adequate nutrients supports liver function during hepatitis E recovery. Avoiding alcohol and certain medications is crucial.",
+                "Gentle exercises like walking promote circulation and overall health, which can aid in recovery from hepatitis E."
+            ]
+        },
+        {
+            "tag": "alcoholic_hepatitis",
+            "patterns": [
+                "What is alcoholic hepatitis?",
+                "Tell me about alcoholic hepatitis",
+                "Alcoholic hepatitis symptoms",
+                "How does alcoholic hepatitis develop?"
+            ],
+            "responses": [
+                "Alcoholic hepatitis is liver inflammation caused by excessive alcohol consumption over time. It can range from mild to severe and may lead to liver cirrhosis or liver failure.",
+                "Symptoms include jaundice (yellowing of the skin and eyes), abdominal pain, nausea, vomiting, and weight loss.",
+                "Treatment involves stopping alcohol consumption, nutritional support (vitamins, minerals), medications (corticosteroids), and in severe cases, liver transplant.",
+                "Recovery time varies depending on the extent of liver damage and individual response to treatment.",
+                "Avoiding alcohol is crucial for preventing and managing alcoholic hepatitis. Nutritious foods support liver health and overall recovery.",
+                "Light exercises like walking promote circulation and overall health, which can aid in recovery from alcoholic hepatitis."
+            ]
+        },
+        {
+            "tag": "common_cold",
+            "patterns": [
+                "What is the common cold?",
+                "Tell me about the common cold",
+                "Common cold symptoms",
+                "How does the common cold develop?"
+            ],
+            "responses": [
+                "The common cold is a viral infection of the upper respiratory tract caused by various viruses, most commonly rhinoviruses. It is highly contagious.",
+                "Symptoms include runny or stuffy nose, sore throat, cough, congestion, mild body aches, and mild fatigue.",
+                "Treatment focuses on relieving symptoms (pain relievers, decongestants), staying hydrated, and getting plenty of rest. Antibiotics are not effective against viruses.",
+                "Recovery time varies but symptoms usually improve within a week. Cough and fatigue may persist longer.",
+                "Preventive measures include frequent handwashing, avoiding close contact with sick individuals, and maintaining a healthy lifestyle.",
+                "A balanced diet with adequate fluids supports immune function during recovery from the common cold. Warm fluids like soup or tea can soothe a sore throat.",
+                "Gentle activities like walking or stretching promote circulation and overall well-being during recovery."
+            ]
+        },
+        {
+            "tag": "pneumonia",
+            "patterns": [
+                "What is pneumonia?",
+                "Tell me about pneumonia",
+                "Pneumonia symptoms",
+                "How does pneumonia develop?"
+            ],
+            "responses": [
+                "Pneumonia is an infection that inflames air sacs in one or both lungs, which may fill with fluid or pus. It can be caused by bacteria, viruses, or fungi.",
+                "Symptoms include cough with phlegm, fever, chills, difficulty breathing, rapid breathing, chest pain, and fatigue.",
+                "Treatment depends on the cause of pneumonia and may include antibiotics, antiviral medications, and supportive care (oxygen therapy, fluids).",
+                "Recovery time varies depending on the cause, overall health, and how quickly treatment was started. Most people start to feel better within a week.",
+                "Preventive measures include vaccinations (pneumococcal vaccine, flu vaccine), practicing good hygiene, and avoiding smoking and air pollutants.",
+                "A balanced diet with adequate nutrients supports immune function during recovery from pneumonia. Adequate hydration helps loosen mucus.",
+                "Gradual return to regular activities, including light exercises like walking, promotes lung recovery and overall well-being."
+            ]
+        },
+        {
+            "tag": "hemorrhoids",
+            "patterns": [
+                "What are hemorrhoids?",
+                "Tell me about hemorrhoids",
+                "Hemorrhoids symptoms",
+                "How do hemorrhoids develop?"
+            ],
+            "responses": [
+                "Hemorrhoids are swollen veins in the lower rectum or anus. They can be internal (inside the rectum) or external (under the skin around the anus).",
+                "Symptoms include pain, itching, bleeding during bowel movements, swelling around the anus, and discomfort.",
+                "Causes include straining during bowel movements, chronic constipation or diarrhea, pregnancy, and sitting for long periods.",
+                "Treatment involves self-care measures (increased fiber intake, topical treatments), medications (pain relievers, stool softeners), and in severe cases, procedures like rubber band ligation or surgery.",
+                "Recovery time varies depending on the severity of hemorrhoids and response to treatment. Self-care measures can provide relief from symptoms.",
+                "A high-fiber diet with plenty of fluids helps prevent constipation and reduces strain during bowel movements, which can worsen hemorrhoids.",
+                "Light exercises like walking or gentle yoga promote circulation and help prevent constipation, supporting overall hemorrhoid management."
+            ]
+        },
+        {
+            "tag": "heart_attack",
+            "patterns": [
+                "What is a heart attack?",
+                "Tell me about heart attacks",
+                "Heart attack symptoms",
+                "How does a heart attack develop?"
+            ],
+            "responses": [
+                "A heart attack (myocardial infarction) occurs when blood flow to part of the heart muscle is blocked, causing the heart muscle to die.",
+                "Symptoms include chest pain or discomfort, shortness of breath, sweating, nausea, and pain or discomfort in the jaw, neck, or back.",
+                "Causes include coronary artery disease (plaque buildup in the arteries), blood clots, and coronary artery spasm.",
+                "Treatment involves emergency medical care to restore blood flow to the heart (thrombolytic therapy, angioplasty, stent placement) and medications to prevent future heart attacks.",
+                "Recovery time varies depending on the extent of heart damage and individual response to treatment. Cardiac rehabilitation may be recommended.",
+                "A heart-healthy diet low in saturated fats and sodium supports heart health. Regular physical activity, such as walking or swimming, improves cardiovascular fitness.",
+                "Avoiding smoking, managing stress, and controlling conditions like high blood pressure and diabetes are essential for preventing future heart attacks."
+            ]
+        },
+        {
+            "tag": "varicose_veins",
+            "patterns": [
+                "What are varicose veins?",
+                "Tell me about varicose veins",
+                "Varicose veins symptoms",
+                "How do varicose veins develop?"
+            ],
+            "responses": [
+                "Varicose veins are enlarged, swollen, and twisted veins, usually in the legs. They may be blue or dark purple and often appear bulging or rope-like.",
+                "Symptoms include visible veins, aching pain, heaviness, swelling, and itching. Complications can include ulcers or blood clots.",
+                "Causes include weak or damaged vein walls and valves, which can lead to poor circulation and pooling of blood in the veins.",
+                "Treatment involves self-care measures (elevating legs, wearing compression stockings), procedures (sclerotherapy, laser treatment), and in severe cases, surgery.",
+                "Recovery time varies depending on the severity of varicose veins and response to treatment. Self-care measures can provide relief from symptoms.",
+                "Regular exercise, such as walking or cycling, promotes circulation and overall vascular health. Maintaining a healthy weight reduces pressure on veins.",
+                "Avoiding prolonged sitting or standing, wearing compression stockings, and elevating legs periodically can help prevent varicose veins from worsening."
+            ]
+        },
+        {
+            "tag": "hypothyroidism",
+            "patterns": [
+                "What is hypothyroidism?",
+                "Tell me about hypothyroidism",
+                "Hypothyroidism symptoms",
+                "How does hypothyroidism develop?"
+            ],
+            "responses": [
+                "Hypothyroidism is a condition where the thyroid gland does not produce enough thyroid hormones to meet the body's needs.",
+                "Symptoms include fatigue, weight gain, cold intolerance, dry skin, hair loss, constipation, and depression.",
+                "Causes include autoimmune disease (Hashimoto's thyroiditis), thyroid surgery, radiation therapy, and certain medications.",
+                "Treatment involves daily thyroid hormone replacement medication (levothyroxine) to restore hormone levels to normal.",
+                "Recovery time varies but symptoms usually improve within a few weeks of starting medication. Lifelong treatment is often necessary.",
+                "A balanced diet with adequate iodine supports thyroid function. Avoiding excessive soy products and certain medications helps medication effectiveness.",
+                "Regular physical activity, such as walking or yoga, helps maintain a healthy weight and overall well-being in individuals with hypothyroidism."
+            ]
+        },
+        {
+            "tag": "hypoglycemia",
+            "patterns": [
+                "What is hypoglycemia?",
+                "Tell me about hypoglycemia",
+                "Hypoglycemia symptoms",
+                "How does hypoglycemia develop?"
+            ],
+            "responses": [
+                "Hypoglycemia is a condition characterized by low blood sugar (glucose) levels, often below 70 mg/dL.",
+                "Symptoms include shakiness, dizziness, sweating, hunger, irritability, anxiety, and confusion. Severe hypoglycemia can lead to loss of consciousness or seizures.",
+                "Causes include diabetes (especially if on insulin or certain medications), excessive alcohol consumption, and certain medical conditions or medications.",
+                "Treatment involves consuming fast-acting carbohydrates (juice, glucose tablets) to raise blood sugar quickly. Severe cases may require glucagon injection.",
+                "Recovery time is rapid with treatment, usually within minutes to hours.",
+                "Preventive measures include regular monitoring of blood sugar levels, balanced meals and snacks, and adjusting diabetes medications as needed.",
+                "Regular exercise, such as brisk walking or cycling, helps maintain stable blood sugar levels and overall health in individuals prone to hypoglycemia."
+            ]
+        },
+        {
+            "tag": "osteoarthritis",
+            "patterns": [
+                "What is osteoarthritis?",
+                "Tell me about osteoarthritis",
+                "Osteoarthritis symptoms",
+                "How does osteoarthritis develop?"
+            ],
+            "responses": [
+                "Osteoarthritis is a degenerative joint disease that occurs when the protective cartilage that cushions the ends of bones wears down over time.",
+                "Symptoms include joint pain, stiffness, tenderness, loss of flexibility, bone spurs, and grating sensation during movement.",
+                "Causes include aging, joint injury or overuse, genetics, and obesity.",
+                "Treatment involves pain management (medications, topical treatments), lifestyle changes (exercise, weight management), and in severe cases, surgery.",
+                "Recovery time varies depending on the severity of osteoarthritis and response to treatment. Self-care measures can provide relief from symptoms.",
+                "A balanced diet with adequate nutrients supports joint health and overall well-being. Omega-3 fatty acids may help reduce inflammation.",
+                "Regular physical activity, such as walking or swimming, strengthens muscles and joints, improves flexibility, and reduces pain in osteoarthritis."
+            ]
+        },
+        {
+            "tag": "arthritis",
+            "patterns": [
+                "What is arthritis?",
+                "Tell me about arthritis",
+                "Arthritis symptoms",
+                "How does arthritis develop?"
+            ],
+            "responses": [
+                "Arthritis is inflammation of one or more joints, causing pain and stiffness that can worsen with age.",
+                "Symptoms include joint pain, stiffness, swelling, redness, and decreased range of motion. Some types of arthritis can also affect the immune system and organs.",
+                "Causes vary depending on the type of arthritis but may include genetics, immune system dysfunction, injury, infection, or wear and tear on joints over time.",
+                "Treatment aims to manage symptoms (pain relievers, anti-inflammatory medications), improve joint function, and prevent further joint damage.",
+                "Recovery time varies depending on the type and severity of arthritis, as well as response to treatment.",
+                "A balanced diet with anti-inflammatory foods (fruits, vegetables, omega-3 fatty acids) supports joint health and overall well-being.",
+                "Regular physical activity, such as walking, swimming, or yoga, improves joint flexibility, strength, and reduces pain in arthritis."
+            ]
+        },
+        {
+            "tag": "paroxysmal_positional_vertigo",
+            "patterns": [
+                "What is paroxysmal positional vertigo (PPV)?",
+                "Tell me about paroxysmal positional vertigo",
+                "PPV symptoms",
+                "How does paroxysmal positional vertigo develop?"
+            ],
+            "responses": [
+                "Paroxysmal positional vertigo (PPV) is a disorder of the inner ear characterized by sudden, brief episodes of vertigo (spinning sensation) triggered by changes in head position.",
+                "Symptoms may also include nausea, vomiting, and imbalance.",
+                "Causes include displacement of small calcium crystals (canaliths) in the inner ear, which disrupts normal balance signals to the brain.",
+                "Treatment involves maneuvers to reposition the displaced crystals (Epley maneuver), medications to relieve symptoms, and in some cases, vestibular rehabilitation.",
+                "Recovery time varies but symptoms often improve or resolve after treatment maneuvers.",
+                "Avoiding sudden head movements and maintaining head elevation during sleep can help prevent recurrence of symptoms.",
+                "Gentle exercises like walking or tai chi promote balance and overall well-being in individuals with paroxysmal positional vertigo."
+            ]
+        },
+        {
+            "tag": "acne",
+            "patterns": [
+                "What is acne?",
+                "Tell me about acne",
+                "Acne symptoms",
+                "How does acne develop?"
+            ],
+            "responses": [
+                "Acne is a common skin condition that occurs when hair follicles become clogged with oil and dead skin cells. It is often associated with hormonal changes.",
+                "Symptoms include whiteheads, blackheads, pimples, oily skin, and possible scarring.",
+                "Causes include excess oil production, bacteria, hormones, certain medications, and genetics.",
+                "Treatment involves topical medications (retinoids, benzoyl peroxide), oral medications (antibiotics, hormonal therapy), and in severe cases, procedures (chemical peels, laser therapy).",
+                "Recovery time varies depending on the severity of acne and response to treatment. Consistent skincare and treatment adherence are key.",
+                "A balanced diet with plenty of fruits and vegetables supports skin health. Drinking water and avoiding sugary foods may help reduce acne flare-ups.",
+                "Regular physical activity, such as brisk walking or yoga, improves circulation and reduces stress, which may help manage acne symptoms."
+            ]
+        },
+        {
+            "tag": "urinary_tract_infection",
+            "patterns": [
+                "What is a urinary tract infection (UTI)?",
+                "Tell me about urinary tract infections",
+                "UTI symptoms",
+                "How does a urinary tract infection develop?"
+            ],
+            "responses": [
+                "A urinary tract infection (UTI) is an infection in any part of the urinary system, including the kidneys, bladder, ureters, and urethra.",
+                "Symptoms vary depending on the part of the urinary tract affected but may include pain or burning during urination, frequent urination, and cloudy or bloody urine.",
+                "Causes include bacteria entering the urinary tract through the urethra. Risk factors include female anatomy, sexual activity, and certain contraceptives.",
+                "Treatment involves antibiotics to kill the bacteria causing the infection. Drinking plenty of water and urinating frequently helps flush out bacteria.",
+                "Recovery time is usually rapid with appropriate antibiotics, often within a few days.",
+                "Preventive measures include staying hydrated, practicing good hygiene (wiping from front to back), and urinating after sexual intercourse.",
+                "A balanced diet with adequate fluids supports urinary tract health. Avoiding irritants like caffeine and alcohol may help prevent UTIs."
+            ]
+        },
+        {
+            "tag": "psoriasis",
+            "patterns": [
+                "What is psoriasis?",
+                "Tell me about psoriasis",
+                "Psoriasis symptoms",
+                "How does psoriasis develop?"
+            ],
+            "responses": [
+                "Psoriasis is a chronic autoimmune condition that causes rapid skin cell turnover, leading to thick, silvery scales and itchy, dry, red patches on the skin.",
+                "Symptoms vary depending on the type of psoriasis but may include red patches of skin covered with thick, silvery scales, itching or burning, and swollen or stiff joints.",
+                "Causes include genetics, immune system dysfunction, and environmental factors.",
+                "Treatment involves topical treatments (corticosteroids, retinoids), phototherapy (light therapy), systemic medications (methotrexate, biologics), and lifestyle changes.",
+                "Recovery time varies depending on the severity of psoriasis and response to treatment. Consistent treatment and self-care are key.",
+                "A balanced diet with anti-inflammatory foods (fruits, vegetables, omega-3 fatty acids) may help manage psoriasis symptoms. Avoiding triggers like stress and alcohol is important.",
+                "Regular physical activity, such as walking or swimming, promotes circulation and overall well-being in individuals with psoriasis."
+            ]
+        },
+        {
+            "tag": "impetigo",
+            "patterns": [
+                "What is impetigo?",
+                "Tell me about impetigo",
+                "Impetigo symptoms",
+                "How does impetigo develop?"
+            ],
+            "responses": [
+                "Impetigo is a highly contagious bacterial skin infection that causes red sores or blisters, usually around the mouth and nose, but can occur on other parts of the body.",
+                "Symptoms include red sores that quickly rupture, ooze fluid, and develop a honey-colored crust. Itching and swollen lymph nodes may also occur.",
+                "Causes include bacteria (Staphylococcus aureus or Streptococcus pyogenes) entering the skin through cuts, insect bites, or existing skin conditions.",
+                "Treatment involves topical or oral antibiotics to kill the bacteria causing the infection. Keeping the skin clean and avoiding scratching are important.",
+                "Recovery time is usually rapid with appropriate antibiotics, often within a few days.",
+                "Preventive measures include practicing good hygiene (regular handwashing), avoiding close contact with infected individuals, and keeping cuts or sores covered.",
+                "A balanced diet with adequate nutrients supports immune function and skin health, aiding in recovery from impetigo."
+            ]
+        },
+        {
+            "tag": "send_off",
+            "patterns": [
+                "Thank you",
+                "Goodbye",
+                "See you later",
+                "Farewell"
+            ],
+            "responses": [
+                "You're welcome! If you have more medical questions, feel free to ask. Goodbye!",
+                "Thank you for using our service. Take care and stay healthy!"
+            ]
+        }
+    ]
+}

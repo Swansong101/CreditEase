@@ -1,0 +1,219 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #f4f4f4, #e0e0e0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#chat-container {
+    width: 60%;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    max-height: 70vh;
+}
+
+#chat-box {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#messages {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+    scrollbar-width: thin;
+}
+
+#typing-indicator {
+    padding: 10px;
+    font-style: italic;
+    color: gray;
+}
+
+#user-input {
+    width: 85%;
+    padding: 12px;
+    margin: 10px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+#send-button {
+    width: 85%;
+    padding: 12px;
+    margin: 10px;
+    border-radius: 8px;
+    background: linear-gradient(135deg, #007BFF, #0056b3);
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+}
+
+#send-button:hover {
+    background: linear-gradient(135deg, #0056b3, #003a80);
+    transform: scale(1.05);
+}
+
+#icon-buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    width: 85%;
+}
+
+#voice-button, #delete-button {
+    padding: 12px;
+    margin: 10px;
+    border-radius: 8px;
+    background: linear-gradient(135deg, #007BFF, #0056b3);
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+}
+
+#voice-button:hover, #delete-button:hover {
+    background: linear-gradient(135deg, #0056b3, #003a80);
+    transform: scale(1.05);
+}
+
+.user-message {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px;
+    border-radius: 12px;
+    margin-bottom: 10px;
+    max-width: 80%;
+    align-self: flex-end;
+}
+
+.bot-message {
+    background-color: #e0e0e0;
+    padding: 10px;
+    border-radius: 12px;
+    margin-bottom: 10px;
+    max-width: 80%;
+    align-self: flex-start;
+}
+
+@media (max-width: 768px) {
+    #chat-container {
+        width: 100%;
+        height: 80vh;
+        border-radius: 0;
+    }
+
+    #user-input, #send-button, #voice-button, #delete-button {
+        width: 90%;
+        padding: 15px;
+    }
+
+    #icon-buttons {
+        width: 90%;
+    }
+}
+
+#chat-heading {
+    font-size: 2.5em;
+    color: #007BFF;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+    font-family: 'Arial', sans-serif;
+}
+#scroll-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: none;
+}
+#scroll-button i {
+    font-size: 20px;
+}
+#chat-container {
+    width: 50%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+#chat-box {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+}
+#messages {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto; /* Enable vertical scrolling */
+    scrollbar-width: thin; /* For Firefox */
+    scrollbar-color: #007BFF #f4f4f4; /* For Firefox */
+}
+#typing-indicator {
+    padding: 10px;
+    color: #888;
+    font-style: italic;
+}
+#user-input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+#button-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+#send-button, #voice-button, #delete-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#icon-buttons {
+    display: flex;
+    align-items: center;
+}
