@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="./dist/Chatroom.css">
+    <link rel="stylesheet" type="text/css" href="./index.css">
+    <title>Credit Ease Chat</title>
+</head>
+<body>
+    <h1>Credit Ease</h1>
+    <div class="main-content">
+        <!-- About Us Section -->
+        <div class="sidebar">
+          <h2>About Us</h2>
+          <p>
+              Credit Ease is your trusted financial assistant. We help you check loan eligibility, view existing loans, and more. Chat with us for instant support and guidance.
+          </p>
+          <h3>Our Vision</h3>
+          <p>
+              To be the leading financial assistant globally, ensuring everyone has access to smart financial tools and insights.
+          </p>
+          <h3>Why Choose Us?</h3>
+          <ul>
+              <li>Instant loan eligibility checks</li>
+              <li>Comprehensive loan management</li>
+              <li>Expert financial guidance</li>
+              <li>24/7 availability</li>
+          </ul>
+      </div>
+      
+
+        <!-- Chat Section -->
+        <div class="chat-wrapper">
+            <div class="chat-container"></div>
+        </div>
+
+        <!-- How To Section -->
+        <div class="sidebar">
+            <h2>How To</h2>
+            <p>Follow these steps to use Credit Ease:</p>
+            <ol>
+                <li>Type your query in the Credit Ease Assistant.</li>
+                <li>Click on "Submit" to send your message.</li>
+                <li>Follow the assistant's guidance.</li>
+            </ol>
+            <h2>Sample Prompts</h2>
+            <ul>
+                <li><strong>Check Loan Eligibility:</strong> "Am I eligible for a loan?"</li>
+                <li><strong>View Existing Loans:</strong> "What loans do I currently have?"</li>
+                <li><strong>Apply for a Loan:</strong> "I want to apply for a personal loan."</li>
+            </ul>
+        </div>
+    </div>
+    <script src="./dist/Chatroom.js"></script>
+    <script type="text/javascript">
+        window.chatroom = new window.Chatroom({
+            title: "Credit Ease Assistant",
+            container: document.querySelector(".chat-container"),
+            welcomeMessage: "Hallo! How can I help you?",
+            host: "http://localhost:5005"
+        });
+        window.chatroom.openChat();
+    </script>
+</body>
+</html>
