@@ -1,0 +1,39 @@
+version: "3.1"
+
+stories:
+- story: Register a new user
+  steps:
+    - intent: register_user
+    - action: utter_request_full_name
+    - intent: provide_full_name
+    - slot_was_set:
+        - full_name: "Jane Smith"
+    - action: utter_request_employment_status
+    - intent: provide_employment_status
+    - slot_was_set:
+        - employment_status: "self-employed"
+    - action: utter_request_monthly_income
+    - intent: provide_monthly_income
+    - slot_was_set:
+        - monthly_income: 50000.0
+    - action: utter_request_additional_income
+    - intent: provide_additional_income
+    - slot_was_set:
+        - additional_income: "Freelance work"
+    - action: action_create_user
+    - action: utter_user_registered
+
+- story: User says goodbye
+  steps:
+    - intent: goodbye
+    - action: utter_goodbye
+
+- story: User stops the process
+  steps:
+    - intent: stop
+    - action: utter_stop
+
+- story: Evaluate loan eligibility
+  steps:
+    - intent: check_loan_eligibility
+    - action: action_evaluate_loan_eligibility

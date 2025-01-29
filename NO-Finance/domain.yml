@@ -1,0 +1,85 @@
+version: "3.1"
+
+intents:
+  - provide_id
+  - register_user
+  - goodbye
+  - stop
+  - provide_additional_income
+  - provide_full_name
+  - provide_monthly_income
+  - provide_employment_status
+  - check_loan_eligibility
+
+entities:
+  - id_number
+  - full_name
+  - employment_status
+  - monthly_income
+  - additional_income
+
+slots:
+  id_number:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: id_number
+      - type: from_text
+        conditions:
+          - active_loop: action_check_user
+  full_name:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_text
+  employment_status:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_text
+  monthly_income:
+    type: float
+    influence_conversation: true
+    mappings:
+      - type: from_text
+  additional_income:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_text
+
+responses:
+  utter_request_full_name:
+    - text: "Please provide your full name."
+  utter_request_employment_status:
+    - text: "What is your employment status? (e.g., employed, self-employed, unemployed)"
+  utter_request_monthly_income:
+    - text: "What is your monthly income? Please enter a numeric value."
+  utter_request_additional_income:
+    - text: "Do you have any additional income? If yes, please describe it briefly."
+  utter_existing_user:
+    - text: "Hello, {full_name}! Welcome back!"
+  utter_user_registered:
+    - text: "You have been successfully registered, {full_name}!"
+  utter_error:
+    - text: "An error occurred. Please try again later."
+  utter_stop:
+    - text: "Alright, stopping the process. Let me know if there's anything else I can assist you with."
+  utter_goodbye:
+    - text: "Goodbye! Have a great day."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+
+actions:
+  - action_check_user
+  - action_create_user
+  - action_evaluate_loan_eligibility
+
+forms:
+  action_check_user:
+    required_slots:
+      - id_number
+

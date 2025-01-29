@@ -1,0 +1,25 @@
+version: "3.1"
+
+stories:
+- story: Test user info form
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: user_info_form
+  - active_loop: user_info_form
+  - intent: provide_name
+    entities:
+      - name: "Nicole Owens"
+  - action: user_info_form
+  - active_loop: user_info_form
+  - intent: provide_id_number
+    entities:
+      - id_number: "123456789"
+  - action: user_info_form
+  - active_loop: user_info_form
+  - intent: provide_employment_status
+    entities:
+      - employment_status: "employed"
+  - action: user_info_form
+  - active_loop: null
+  - action: utter_thank_you

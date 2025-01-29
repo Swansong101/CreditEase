@@ -1,0 +1,38 @@
+version: "3.1"
+
+rules:
+  - rule: Request ID for user check
+    steps:
+      - intent: provide_id
+      - action: action_check_user
+
+  - rule: Handle existing user
+    condition:
+      - slot_was_set:
+          - full_name
+    steps:
+      - action: utter_existing_user
+
+  - rule: Handle errors gracefully
+    steps:
+      - action: utter_error
+
+  - rule: Say goodbye
+    steps:
+      - intent: goodbye
+      - action: utter_goodbye
+
+  - rule: Stop the process
+    steps:
+      - intent: stop
+      - action: utter_stop
+
+  - rule: Handle user registration
+    steps:
+      - intent: register_user
+      - action: utter_request_full_name
+
+  - rule: Check loan eligibility
+    steps:
+      - intent: check_loan_eligibility
+      - action: action_evaluate_loan_eligibility

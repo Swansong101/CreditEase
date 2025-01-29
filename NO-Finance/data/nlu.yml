@@ -1,0 +1,90 @@
+version: "3.1"
+
+nlu:
+- intent: provide_id
+  examples: |
+    - My ID is [ID4001](id_number)
+    - Check my ID [ID5001](id_number)
+    - Here is my ID: [ID6002](id_number)
+    - My identification number is [ID7003](id_number)
+    - ID: [ID8004](id_number)
+    - The ID is [ID9005](id_number)
+
+- intent: register_user
+  examples: |
+    - I want to register
+    - Register me
+    - Can I sign up?
+    - I would like to create an account
+    - Help me register
+    - Sign me up
+
+- intent: provide_full_name
+  examples: |
+    - My name is [John Doe](full_name)
+    - I'm [Jane Smith](full_name)
+    - It's [Nicole Owens](full_name)
+    - [Wanjiru Kamau](full_name) is my name
+    - Call me [Achieng Otieno](full_name)
+    - [Samuel Mutua](full_name)
+    - I am [Dorcas Wambui](full_name)
+    - The name is [Joseph Karanja](full_name)
+
+- intent: provide_employment_status
+  examples: |
+    - I am employed.
+    - I am self-employed.
+    - I am currently unemployed.
+    - I work full time.
+    - I am between jobs.
+    - I run my own business.
+    - I am a freelancer.
+    - I have a part-time job.
+
+- intent: provide_monthly_income
+  examples: |
+    - My income is 50000
+    - I earn 70000 monthly
+    - It's 30000
+    - I make 55000 per month
+    - My monthly salary is 45000
+    - 65000
+    - My monthly earnings are 75000
+
+- intent: provide_additional_income
+  examples: |
+    - Yes, I have additional income.
+    - No, I don't have additional sources of income.
+    - I earn extra from freelance work.
+    - My side hustle brings in extra cash.
+    - I have a second job.
+    - I do consulting for extra income.
+    - My additional earnings come from teaching part-time.
+
+- intent: goodbye
+  examples: |
+    - Goodbye
+    - Bye
+    - See you later
+    - Have a nice day
+    - Talk to you soon
+    - Catch you later
+    - Farewell
+
+- intent: stop
+  examples: |
+    - I want to stop
+    - Cancel the application
+    - Never mind
+    - Stop the process
+    - I no longer wish to continue
+
+- intent: check_loan_eligibility
+  examples: |
+    - Am I eligible for a loan?
+    - Check if I qualify for a loan
+    - Can you evaluate my loan eligibility?
+    - Do I qualify for a loan?
+    - Assess my eligibility for a loan
+    - Can you confirm if I meet the requirements for a loan?
+    - Determine if I can apply for a loan
